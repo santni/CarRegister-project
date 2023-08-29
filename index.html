@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/script.js"></script>
+    <title>Cadastro de carros</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <h2 id="titulo-principal">CADASTRAR NOVO CARRO!</h2>
+
+        <div id="input-container">
+
+
+            <Input type="text" id="input-marca" name="input-marca" class="input" placeholder="Marca"/>
+            <div id="msg"></div>
+
+            <Input type="text" id="input-modelo" name="input-modelo" class="input" placeholder="Modelo"/>
+            <div id="msg"></div>
+
+            <Input type="text" id="input-ano" name="input-ano" class="input" placeholder="Ano"/>
+            <div id="msg"></div>
+
+            <Input type="text" id="input-cor" name="input-cor" class="input" placeholder="Cor"/>
+            <div id="msg"></div>
+
+            <Input type="text" id="input-km" name="input-km" class="input" placeholder="Km"/>
+            <div id="msg"></div>
+
+            <Input type="number" id="input-preco" name="input-preco" class="input" placeholder="Preço R$"/>
+            <div id="msg"></div>
+
+            <Input type="text" id="input-imagem" name="input-imagem" class="input" placeholder="Imagem"/>
+            <div id="msg"></div>
+
+            <button id="botao-CriarCarro" class="button" onclick="criarCarro()">Adicionar Jogo</button>
+        </div>
+
+    </div>
+    <div id="containerListaDeCarros">
+    </div>
+
+</body>
+
+</html>
